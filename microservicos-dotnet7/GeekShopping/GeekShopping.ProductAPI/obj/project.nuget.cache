@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JPbGreBvGzFxGyFdwB1YrBa7VyeN3eZXVHvSMrs6ObhTlOTrC4HxksbigQf3pwg73Xny+Rma8yUAyAL55rw0uA==",
+  "dgSpecHash": "e4USXvvunjv4LbsaQI9KUy6qcKdHgMgQKbkKnuRuk8pEPCUhX0KrixyPXVA3FWC6Ac1UAW8Aa5UpM0gHx/O6xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Leandro\\Desktop\\microservices-dotnet6\\microservicos-dotnet7\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
