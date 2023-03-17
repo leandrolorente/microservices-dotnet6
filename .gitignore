@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/microservicos-dotnet7/GeekShopping/.vs/GeekShopping/FileContentIndex/afc02619-af47-4523-a95d-756d84d7253d.vsidx
+/microservicos-dotnet7/GeekShopping/.vs/GeekShopping/FileContentIndex/aa52d21f-bc8c-428c-81e0-e47122f67600.vsidx
+/microservicos-dotnet7/GeekShopping/.vs/GeekShopping/FileContentIndex
+/microservicos-dotnet7/GeekShopping/GeekShopping.ProductAPI/bin/Debug/net6.0/GeekShopping.ProductAPI.dll
+/microservicos-dotnet7/GeekShopping/GeekShopping.ProductAPI/bin/Debug/net6.0/GeekShopping.ProductAPI.pdb
+/microservicos-dotnet7/GeekShopping/.vs/GeekShopping/v17/.suo
+/microservicos-dotnet7/GeekShopping/.vs/GeekShopping/DesignTimeBuild/.dtbcache.v2
+/microservicos-dotnet7/GeekShopping/GeekShopping.ProductAPI/obj/Debug/net6.0/refint/GeekShopping.ProductAPI.dll
