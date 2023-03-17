@@ -9,8 +9,8 @@ namespace GeekShopping.ProductAPI.Repository
         Task<ProductDto> FindByName(string name);
         Task<ProductDto> Create(ProductDto dto);
         Task<ProductDto> Update(ProductDto dto);
-        Task<ProductDto> DeleteById(long id);
-        Task<ProductDto> DeleteByName(string name);
+        Task<bool> DeleteById(long id);
+        Task<bool> DeleteByName(string name);
         
     }
 }
