@@ -26,3 +26,5 @@
 /microservicos-dotnet7/GeekShopping/GeekShopping.Web/GeekShopping.Web/obj/project.nuget.cache
 /microservicos-dotnet7/GeekShopping/GeekShopping.Web/GeekShopping.Web/obj/project.assets.json
 /microservicos-dotnet7/GeekShopping/GeekShopping.Web/GeekShopping.Web/obj/GeekShopping.Web.csproj.nuget.dgspec.json
+/microservicos-dotnet7/GeekShopping/GeekShopping.Web/GeekShopping.Web/bin/Debug/net6.0
+/microservicos-dotnet7/GeekShopping/GeekShopping.ProductAPI/obj/Debug/net6.0/apphost.exe
