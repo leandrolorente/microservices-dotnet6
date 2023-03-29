@@ -1,5 +1,7 @@
 ﻿using GeekShopping.Web.Models;
 using GeekShopping.Web.Services.IServices;
+using GeekShopping.Web.Utils;
+using System.Reflection;
 
 namespace GeekShopping.Web.Services
 {
@@ -7,28 +9,38 @@ namespace GeekShopping.Web.Services
     {
         private readonly HttpClient _client;
 
-        public const string BasePath = "api/v1/product";
+        public const string BasePath = "api/v1/Product";
 
-        public Task<IEnumerable<ProductModel>> FindAllProducts()
+        public ProductService(HttpClient client)
         {
-           // var response = new 
+            _client = client ?? throw new ArgumentNullException(nameof(client));
         }
 
-        public Task<ProductModel> FindById(long id)
+        public async Task<IEnumerable<ProductModel>> FindAllProducts()
         {
-            throw new NotImplementedException();
+            var response = await _client.GetAsync(BasePath);
+            return await response.ReadContentAs<List<ProductModel>>();
         }
-        public Task<ProductModel> CreateProduct(ProductModel model)
+
+        public async Task<ProductModel> FindById(long id)
         {
-            throw new NotImplementedException();
+            var response = await _client.GetAsync($"{BasePath}/{id}");
+            return await response.ReadContentAs<ProductModel>();
         }
-        public Task<ProductModel> UpdateProduct(ProductModel model)
+        public async Task<ProductModel> CreateProduct(ProductModel model)
         {
-            throw new NotImplementedException();
+            var response = await _client.PostAsJson(BasePath, model);
+            return response.IsSuccessStatusCode ? await response.ReadContentAs<ProductModel>() : throw new Exception("Algo de errado ocorreu ao chamar a API (createProduct)");
         }
-        public Task<bool> DeleteProduct(long id)
+        public async Task<ProductModel> UpdateProduct(ProductModel model)
         {
-            throw new NotImplementedException();
+            var response = await _client.PutAsJson(BasePath, model);
+            return response.IsSuccessStatusCode ? await response.ReadContentAs<ProductModel>() : throw new Exception("Algo de errado ocorreu ao chamar a API (createProduct)");
+        }
+        public async Task<bool> DeleteProduct(long id)
+        {
+            var response = await _client.DeleteAsync($"{BasePath}/{id}");
+            return response.IsSuccessStatusCode ? await response.ReadContentAs<bool>() : throw new Exception("Algo de errado ocorreu ao chamar a API (createProduct)");
         }   
 
         
