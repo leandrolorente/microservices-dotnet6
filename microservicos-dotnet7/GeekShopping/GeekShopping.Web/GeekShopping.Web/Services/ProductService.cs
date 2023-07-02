@@ -24,7 +24,7 @@ namespace GeekShopping.Web.Services
 
         public async Task<ProductModel> FindById(long id)
         {
-            var response = await _client.GetAsync($"{BasePath}/{id}");
+            var response = await _client.GetAsync($"{BasePath}/id/{id}");
             return await response.ReadContentAs<ProductModel>();
         }
         public async Task<ProductModel> CreateProduct(ProductModel model)
