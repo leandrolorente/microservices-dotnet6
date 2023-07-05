@@ -33,6 +33,7 @@ C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-do
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\appsettings.json
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.staticwebassets.runtime.json
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.exe
+C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\Views\ProductContoller\ProductIndex.cshtml
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.deps.json
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.runtimeconfig.json
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.dll
@@ -60,4 +61,3 @@ C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-do
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.pdb
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.genruntimeconfig.cache
 C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\obj\Debug\net6.0\ref\GeekShopping.Web.dll
-C:\Users\loren\OneDrive\Área de Trabalho\microservices-dotnet6\microservicos-dotnet7\GeekShopping\GeekShopping.Web\GeekShopping.Web\bin\Debug\net6.0\Views\ProductContoller\ProductIndex.cshtml
