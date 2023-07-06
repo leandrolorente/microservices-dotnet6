@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LzAuaHD49g1W2cC/Yx6zXAug80XrGEnzcwQfLsMiPlNChg04OsYJeLZCyucHjIqZx08wXlbn9kJILKks/WBM8w==",
+  "dgSpecHash": "Wga2mzKw38xk+5MNplzHj6sNVCpuCuvbDF3DBwx9mveMHt3+kc1d+xRFPWp6rF8P5mz31R1OTvgE5UxguGfPAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\loren\\OneDrive\\Área de Trabalho\\microservices-dotnet6\\microservicos-dotnet7\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loren\\.nuget\\packages\\duende.identityserver\\6.3.2\\duende.identityserver.6.3.2.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.3.2\\duende.identityserver.aspnetidentity.6.3.2.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\duende.identityserver.storage\\6.3.2\\duende.identityserver.storage.6.3.2.nupkg.sha512",
+    "C:\\Users\\loren\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\identitymodel\\6.1.0\\identitymodel.6.1.0.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.19\\microsoft.aspnetcore.cryptography.internal.6.0.19.nupkg.sha512",
@@ -25,6 +26,7 @@
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.19\\microsoft.entityframeworkcore.6.0.19.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.19\\microsoft.entityframeworkcore.abstractions.6.0.19.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.19\\microsoft.entityframeworkcore.analyzers.6.0.19.nupkg.sha512",
+    "C:\\Users\\loren\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.19\\microsoft.entityframeworkcore.design.6.0.19.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.19\\microsoft.entityframeworkcore.relational.6.0.19.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
